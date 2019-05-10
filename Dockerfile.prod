@@ -3,7 +3,7 @@ FROM node:11-alpine
 ARG VERSION=1.0.0
 # Copy the application files
 WORKDIR /usr/src/app
-COPY package.json app.js LICENSE /usr/src/app/
+COPY package.json app.js /usr/src/app/
 COPY lib /usr/src/app/lib/
 LABEL license=MIT \
     version=$VERSION

@@ -4,11 +4,15 @@
   "repository": "https://github.com/lauri108/docker-mocha",
   "license": "MIT",
   "scripts": {
+    "testnew": "mocha test",
+    "start": "node index.js",
+    "debugTest": "DEBUG=* mocha test",
     "test": "mocha ./tests/test.js"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
     "mocha": "^6.1.4",
-    "supertest": "^4.0.2",
-    "express": "^4.16.4"
+    "socket.io": "^2.2.0"
   }
 }

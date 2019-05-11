@@ -1,23 +1,13 @@
 {
-  "name": "calculator",
-  "version": "1.0.0",
-  "description": "A demo for unit-testing docker containers",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "test": "mocha tests/test.js"
-  },
-  "keywords": [
-    "testing",
-    "docker"
-  ],
-  "author": "Nahshon Una-Tsameret",
+  "name": "docker-mocha",
+  "description": "Node JS Docker Mocha test",
+  "repository": "https://github.com/lauri108/docker-mocha",
   "license": "MIT",
-  "dependencies": {
-    "express": "^4.14.0"
+  "scripts": {
+    "test": "mocha ./tests/test.js"
   },
   "devDependencies": {
-    "mocha": "^3.2.0",
-    "supertest": "^2.0.1"
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
   }
 }

@@ -1,11 +1,3 @@
-var app = require('express')();
-var router = require('./lib/routers/calcRouter');
-app.use("/calculator", router);
-app.listen(8080);
-exports.app = app;
-/*
-
-socket component
 var express = require('express')
   , app = express()
   , port = process.env.PORT || 3000
@@ -21,5 +13,5 @@ io.on('connection', function(socket){
 // export the server so it can be easily called for testing
 exports.server = http.listen(port)
 
-*/
-
+  // var router = require('./lib/routers/calcRouter');
+  // app.use("/calculator", router);

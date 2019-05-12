@@ -1,3 +1,4 @@
+/*
 'use strict'
 
 var expect = require('chai').expect
@@ -12,7 +13,7 @@ var expect = require('chai').expect
     , sender
     , receiver
 
-
+console.log('server start: ', server.start())
 
 describe('Chat Events', function () {
     beforeEach(function (done) {
@@ -44,3 +45,4 @@ describe('Chat Events', function () {
         })
     })
 })
+*/
